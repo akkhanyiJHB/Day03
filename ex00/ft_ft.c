@@ -6,13 +6,13 @@
 /*   By: akkhanyi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/12 13:37:37 by akkhanyi          #+#    #+#             */
-/*   Updated: 2020/07/13 12:24:00 by akkhanyi         ###   ########.fr       */
+/*   Updated: 2020/07/17 13:52:43 by akkhanyi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_ft(int *nbr)
+void	ft_ft(int *nbr) //takes a pointer to int
 {
-	*nbr = 42;
+	*nbr = 42;			//42 is set to the int
 }
